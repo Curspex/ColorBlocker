@@ -2,6 +2,7 @@ name: ColorBlocker
 main: com.adamedw.colorblocker.ColorBlocker
 version: 1.0.0
 author: Omnivion
+description: Block unwanted colors
 website: http://adamedw.com
 database: false
 
