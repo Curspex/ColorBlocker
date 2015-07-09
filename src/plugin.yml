@@ -1,0 +1,25 @@
+name: ColorBlocker
+main: com.adamedw.colorblocker.ColorBlocker
+version: 1.0.0
+author: Omnivion
+website: http://adamedw.com
+database: false
+
+permissions:
+  colorblocker.*:
+    default: op
+    description: Allows access to all ColorBlocker nodes.
+    children:
+      colorblocker.all: true
+  colorblocker.all:
+    default: false
+    description: Allows access to all ColorBlocker nodes.
+    children:
+      colorblocker.usecolor: true
+      colorblocker.bypass: true
+  colorblocker.usecolor:
+    default: op
+    description: Your colors will be translated.
+  colorblocker.bypass:
+    default: op
+    description: Your messages will not have blocked colors stripped.

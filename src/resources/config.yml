@@ -1,0 +1,4 @@
+translateColors: false
+blockedColors:
+- DARK_RED
+- BLACK
